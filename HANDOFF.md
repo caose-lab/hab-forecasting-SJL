@@ -37,3 +37,8 @@ This repository contains the current operational HAB forecasting workflow for 1-
 - Clean up and document GitHub-facing repo structure further
 - Continue systematic search for 3-class week-3 risk if better recall is needed
 - Consider adding a concise API/CLI wrapper for operational use
+
+## Bundle Availability
+
+- The current `.joblib` bundles are versioned in this repository under `operational_models/` and `models/`.
+- If those artifacts are refreshed, update `operational_models/MODEL_REGISTRY.md` and this handoff note together.

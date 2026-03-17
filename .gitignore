@@ -16,6 +16,3 @@ models_multiclass_risk_newvars/
 models_multiclass_risk_h3_targeted/
 
 # Keep deployed operational artifacts, diagnostics, source, and scripts
-
-# Binary model artifacts are shared separately
-*.joblib
