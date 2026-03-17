@@ -1,0 +1,51 @@
+{
+  "data_summary": {
+    "input_rows": 3727,
+    "input_start": "2016-01-01",
+    "input_end": "2026-03-15",
+    "target_non_missing": 1718
+  },
+  "metrics": {
+    "accuracy": 0.8708708708708709,
+    "balanced_accuracy": 0.5507575757575758,
+    "high_precision": 0.25,
+    "high_recall": 0.15151515151515152,
+    "high_f1": 0.18867924528301888,
+    "roc_auc": 0.6735353535353535,
+    "train_rows": 1329,
+    "test_rows": 333,
+    "train_start": "2016-09-01",
+    "train_end": "2024-08-14",
+    "test_start": "2024-08-22",
+    "test_end": "2026-02-09",
+    "feature_count": 829,
+    "high_lower_q75": 16.41,
+    "high_quantile": 0.75,
+    "high_threshold_mode": "fixed_value",
+    "probability_threshold": 0.3,
+    "validation_threshold_metrics": {
+      "high_precision": 0.2,
+      "high_recall": 0.4117647058823529,
+      "high_f1": 0.2692307692307692
+    },
+    "confusion_matrix": [
+      [
+        5,
+        28
+      ],
+      [
+        15,
+        285
+      ]
+    ],
+    "class_order": [
+      "high",
+      "not_high"
+    ],
+    "test_class_counts": {
+      "high": 33,
+      "not_high": 300
+    },
+    "predicted_positive_rate": 0.06006006006006006
+  }
+}

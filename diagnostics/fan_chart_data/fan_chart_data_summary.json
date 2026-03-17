@@ -1,0 +1,74 @@
+{
+  "week_1": {
+    "rows": 333,
+    "csv": "/Users/a1amador/Documents/Playground/diagnostics/fan_chart_data/week1_fan_chart_data.csv",
+    "prediction_start": "2024-09-05",
+    "prediction_end": "2026-02-23",
+    "verification_start": "2024-09-05",
+    "verification_end": "2026-03-01",
+    "columns": [
+      "prediction_date",
+      "target_window_start",
+      "target_window_end",
+      "pred",
+      "obs",
+      "date",
+      "pi50_lower",
+      "pi50_upper",
+      "pi68_lower",
+      "pi68_upper",
+      "pi80_lower",
+      "pi80_upper",
+      "pi90_lower",
+      "pi90_upper"
+    ]
+  },
+  "week_2": {
+    "rows": 333,
+    "csv": "/Users/a1amador/Documents/Playground/diagnostics/fan_chart_data/week2_fan_chart_data.csv",
+    "prediction_start": "2024-08-29",
+    "prediction_end": "2026-02-16",
+    "verification_start": "2024-09-05",
+    "verification_end": "2026-03-01",
+    "columns": [
+      "prediction_date",
+      "target_window_start",
+      "target_window_end",
+      "pred",
+      "obs",
+      "date",
+      "pi50_lower",
+      "pi50_upper",
+      "pi68_lower",
+      "pi68_upper",
+      "pi80_lower",
+      "pi80_upper",
+      "pi90_lower",
+      "pi90_upper"
+    ]
+  },
+  "week_3": {
+    "rows": 333,
+    "csv": "/Users/a1amador/Documents/Playground/diagnostics/fan_chart_data/week3_fan_chart_data.csv",
+    "prediction_start": "2024-08-22",
+    "prediction_end": "2026-02-09",
+    "verification_start": "2024-09-05",
+    "verification_end": "2026-03-01",
+    "columns": [
+      "prediction_date",
+      "target_window_start",
+      "target_window_end",
+      "pred",
+      "obs",
+      "date",
+      "pi50_lower",
+      "pi50_upper",
+      "pi68_lower",
+      "pi68_upper",
+      "pi80_lower",
+      "pi80_upper",
+      "pi90_lower",
+      "pi90_upper"
+    ]
+  }
+}

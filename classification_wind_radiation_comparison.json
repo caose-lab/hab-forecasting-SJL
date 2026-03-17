@@ -1,0 +1,590 @@
+{
+  "radiation": {
+    "week1_3class": {
+      "accuracy": 0.6216216216216216,
+      "balanced_accuracy": 0.48131868131868133,
+      "macro_f1": 0.4783727052383768,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-15",
+      "train_end": "2024-08-28",
+      "test_start": "2024-09-05",
+      "test_end": "2026-02-23",
+      "feature_count": 126,
+      "best_params": {
+        "mode": "fixed_baseline",
+        "feature_profile": "target_small_env_calendar_p95",
+        "horizon": 1,
+        "model__learning_rate": 0.03,
+        "model__max_depth": 4,
+        "model__max_iter": 500,
+        "model__max_leaf_nodes": 31,
+        "model__min_samples_leaf": 60,
+        "model__l2_regularization": 0.8
+      },
+      "thresholds": {
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 17.7478731098321,
+        "high_quantile": 0.7
+      },
+      "class_order": [
+        "high",
+        "low",
+        "medium"
+      ],
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          18
+        ],
+        [
+          4,
+          122,
+          56
+        ],
+        [
+          17,
+          31,
+          82
+        ]
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "low": 182,
+        "medium": 130
+      }
+    },
+    "week2_3class": {
+      "accuracy": 0.5615615615615616,
+      "balanced_accuracy": 0.45128205128205123,
+      "macro_f1": 0.4460831036594703,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-08",
+      "train_end": "2024-08-21",
+      "test_start": "2024-08-29",
+      "test_end": "2026-02-16",
+      "feature_count": 126,
+      "best_params": {
+        "mode": "fixed_baseline",
+        "feature_profile": "target_small_env_calendar_p95",
+        "horizon": 2,
+        "model__learning_rate": 0.03,
+        "model__max_depth": 4,
+        "model__max_iter": 500,
+        "model__max_leaf_nodes": 31,
+        "model__min_samples_leaf": 60,
+        "model__l2_regularization": 0.8
+      },
+      "thresholds": {
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 17.7478731098321,
+        "high_quantile": 0.7
+      },
+      "class_order": [
+        "high",
+        "low",
+        "medium"
+      ],
+      "confusion_matrix": [
+        [
+          3,
+          3,
+          15
+        ],
+        [
+          5,
+          93,
+          84
+        ],
+        [
+          6,
+          33,
+          91
+        ]
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "low": 182,
+        "medium": 130
+      }
+    },
+    "week1_binary": {
+      "accuracy": 0.8378378378378378,
+      "balanced_accuracy": 0.6247710622710623,
+      "high_precision": 0.16326530612244897,
+      "high_recall": 0.38095238095238093,
+      "high_f1": 0.22857142857142856,
+      "roc_auc": 0.7538156288156288,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-15",
+      "train_end": "2024-08-28",
+      "test_start": "2024-09-05",
+      "test_end": "2026-02-23",
+      "feature_count": 126,
+      "high_lower_q75": 17.7478731098321,
+      "high_quantile": 0.7,
+      "probability_threshold": 0.22499999999999998,
+      "validation_threshold_metrics": {
+        "high_precision": 0.3953488372093023,
+        "high_recall": 0.5862068965517241,
+        "high_f1": 0.4722222222222222
+      },
+      "confusion_matrix": [
+        [
+          8,
+          13
+        ],
+        [
+          41,
+          271
+        ]
+      ],
+      "class_order": [
+        "high",
+        "not_high"
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "not_high": 312
+      },
+      "predicted_positive_rate": 0.14714714714714713
+    },
+    "week2_binary": {
+      "accuracy": 0.8228228228228228,
+      "balanced_accuracy": 0.6167582417582418,
+      "high_precision": 0.14814814814814814,
+      "high_recall": 0.38095238095238093,
+      "high_f1": 0.21333333333333335,
+      "roc_auc": 0.7564102564102564,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-08",
+      "train_end": "2024-08-21",
+      "test_start": "2024-08-29",
+      "test_end": "2026-02-16",
+      "feature_count": 126,
+      "high_lower_q75": 17.7478731098321,
+      "high_quantile": 0.7,
+      "probability_threshold": 0.175,
+      "validation_threshold_metrics": {
+        "high_precision": 0.25,
+        "high_recall": 0.5517241379310345,
+        "high_f1": 0.34408602150537637
+      },
+      "confusion_matrix": [
+        [
+          8,
+          13
+        ],
+        [
+          46,
+          266
+        ]
+      ],
+      "class_order": [
+        "high",
+        "not_high"
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "not_high": 312
+      },
+      "predicted_positive_rate": 0.16216216216216217
+    }
+  },
+  "awnd": {
+    "week1_3class": {
+      "accuracy": 0.6246246246246246,
+      "balanced_accuracy": 0.49572649572649574,
+      "macro_f1": 0.49172970424120965,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-15",
+      "train_end": "2024-08-28",
+      "test_start": "2024-09-05",
+      "test_end": "2026-02-23",
+      "feature_count": 126,
+      "best_params": {
+        "mode": "fixed_baseline",
+        "feature_profile": "target_small_env_calendar_p95",
+        "horizon": 1,
+        "model__learning_rate": 0.03,
+        "model__max_depth": 4,
+        "model__max_iter": 500,
+        "model__max_leaf_nodes": 31,
+        "model__min_samples_leaf": 60,
+        "model__l2_regularization": 0.8
+      },
+      "thresholds": {
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 17.7478731098321,
+        "high_quantile": 0.7
+      },
+      "class_order": [
+        "high",
+        "low",
+        "medium"
+      ],
+      "confusion_matrix": [
+        [
+          4,
+          2,
+          15
+        ],
+        [
+          0,
+          124,
+          58
+        ],
+        [
+          21,
+          29,
+          80
+        ]
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "low": 182,
+        "medium": 130
+      }
+    },
+    "week2_3class": {
+      "accuracy": 0.5735735735735735,
+      "balanced_accuracy": 0.4593406593406593,
+      "macro_f1": 0.46117239673509774,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-08",
+      "train_end": "2024-08-21",
+      "test_start": "2024-08-29",
+      "test_end": "2026-02-16",
+      "feature_count": 126,
+      "best_params": {
+        "mode": "fixed_baseline",
+        "feature_profile": "target_small_env_calendar_p95",
+        "horizon": 2,
+        "model__learning_rate": 0.03,
+        "model__max_depth": 4,
+        "model__max_iter": 500,
+        "model__max_leaf_nodes": 31,
+        "model__min_samples_leaf": 60,
+        "model__l2_regularization": 0.8
+      },
+      "thresholds": {
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 17.7478731098321,
+        "high_quantile": 0.7
+      },
+      "class_order": [
+        "high",
+        "low",
+        "medium"
+      ],
+      "confusion_matrix": [
+        [
+          3,
+          1,
+          17
+        ],
+        [
+          0,
+          96,
+          86
+        ],
+        [
+          6,
+          32,
+          92
+        ]
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "low": 182,
+        "medium": 130
+      }
+    },
+    "week1_binary": {
+      "accuracy": 0.9069069069069069,
+      "balanced_accuracy": 0.5061813186813187,
+      "high_precision": 0.08333333333333333,
+      "high_recall": 0.047619047619047616,
+      "high_f1": 0.06060606060606061,
+      "roc_auc": 0.7851037851037851,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-15",
+      "train_end": "2024-08-28",
+      "test_start": "2024-09-05",
+      "test_end": "2026-02-23",
+      "feature_count": 126,
+      "high_lower_q75": 17.7478731098321,
+      "high_quantile": 0.7,
+      "probability_threshold": 0.625,
+      "validation_threshold_metrics": {
+        "high_precision": 0.5,
+        "high_recall": 0.5172413793103449,
+        "high_f1": 0.5084745762711864
+      },
+      "confusion_matrix": [
+        [
+          1,
+          20
+        ],
+        [
+          11,
+          301
+        ]
+      ],
+      "class_order": [
+        "high",
+        "not_high"
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "not_high": 312
+      },
+      "predicted_positive_rate": 0.036036036036036036
+    },
+    "week2_binary": {
+      "accuracy": 0.8978978978978979,
+      "balanced_accuracy": 0.6346153846153846,
+      "high_precision": 0.25925925925925924,
+      "high_recall": 0.3333333333333333,
+      "high_f1": 0.2916666666666667,
+      "roc_auc": 0.7605311355311355,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-08",
+      "train_end": "2024-08-21",
+      "test_start": "2024-08-29",
+      "test_end": "2026-02-16",
+      "feature_count": 126,
+      "high_lower_q75": 17.7478731098321,
+      "high_quantile": 0.7,
+      "probability_threshold": 0.22499999999999998,
+      "validation_threshold_metrics": {
+        "high_precision": 0.28125,
+        "high_recall": 0.6206896551724138,
+        "high_f1": 0.3870967741935484
+      },
+      "confusion_matrix": [
+        [
+          7,
+          14
+        ],
+        [
+          20,
+          292
+        ]
+      ],
+      "class_order": [
+        "high",
+        "not_high"
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "not_high": 312
+      },
+      "predicted_positive_rate": 0.08108108108108109
+    }
+  },
+  "radiation_awnd": {
+    "week1_3class": {
+      "accuracy": 0.6126126126126126,
+      "balanced_accuracy": 0.47875457875457866,
+      "macro_f1": 0.47684780051752523,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-15",
+      "train_end": "2024-08-28",
+      "test_start": "2024-09-05",
+      "test_end": "2026-02-23",
+      "feature_count": 144,
+      "best_params": {
+        "mode": "fixed_baseline",
+        "feature_profile": "target_small_env_calendar_p95",
+        "horizon": 1,
+        "model__learning_rate": 0.03,
+        "model__max_depth": 4,
+        "model__max_iter": 500,
+        "model__max_leaf_nodes": 31,
+        "model__min_samples_leaf": 60,
+        "model__l2_regularization": 0.8
+      },
+      "thresholds": {
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 17.7478731098321,
+        "high_quantile": 0.7
+      },
+      "class_order": [
+        "high",
+        "low",
+        "medium"
+      ],
+      "confusion_matrix": [
+        [
+          3,
+          1,
+          17
+        ],
+        [
+          0,
+          115,
+          67
+        ],
+        [
+          15,
+          29,
+          86
+        ]
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "low": 182,
+        "medium": 130
+      }
+    },
+    "week2_3class": {
+      "accuracy": 0.5405405405405406,
+      "balanced_accuracy": 0.4525030525030525,
+      "macro_f1": 0.46042218903975335,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-08",
+      "train_end": "2024-08-21",
+      "test_start": "2024-08-29",
+      "test_end": "2026-02-16",
+      "feature_count": 144,
+      "best_params": {
+        "mode": "fixed_baseline",
+        "feature_profile": "target_small_env_calendar_p95",
+        "horizon": 2,
+        "model__learning_rate": 0.03,
+        "model__max_depth": 4,
+        "model__max_iter": 500,
+        "model__max_leaf_nodes": 31,
+        "model__min_samples_leaf": 60,
+        "model__l2_regularization": 0.8
+      },
+      "thresholds": {
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 17.7478731098321,
+        "high_quantile": 0.7
+      },
+      "class_order": [
+        "high",
+        "low",
+        "medium"
+      ],
+      "confusion_matrix": [
+        [
+          4,
+          4,
+          13
+        ],
+        [
+          0,
+          85,
+          97
+        ],
+        [
+          4,
+          35,
+          91
+        ]
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "low": 182,
+        "medium": 130
+      }
+    },
+    "week1_binary": {
+      "accuracy": 0.8648648648648649,
+      "balanced_accuracy": 0.6169871794871795,
+      "high_precision": 0.18421052631578946,
+      "high_recall": 0.3333333333333333,
+      "high_f1": 0.23728813559322035,
+      "roc_auc": 0.7216117216117216,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-15",
+      "train_end": "2024-08-28",
+      "test_start": "2024-09-05",
+      "test_end": "2026-02-23",
+      "feature_count": 144,
+      "high_lower_q75": 17.7478731098321,
+      "high_quantile": 0.7,
+      "probability_threshold": 0.32499999999999996,
+      "validation_threshold_metrics": {
+        "high_precision": 0.4,
+        "high_recall": 0.5517241379310345,
+        "high_f1": 0.463768115942029
+      },
+      "confusion_matrix": [
+        [
+          7,
+          14
+        ],
+        [
+          31,
+          281
+        ]
+      ],
+      "class_order": [
+        "high",
+        "not_high"
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "not_high": 312
+      },
+      "predicted_positive_rate": 0.11411411411411411
+    },
+    "week2_binary": {
+      "accuracy": 0.8708708708708709,
+      "balanced_accuracy": 0.597985347985348,
+      "high_precision": 0.17647058823529413,
+      "high_recall": 0.2857142857142857,
+      "high_f1": 0.21818181818181817,
+      "roc_auc": 0.8266178266178266,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-08",
+      "train_end": "2024-08-21",
+      "test_start": "2024-08-29",
+      "test_end": "2026-02-16",
+      "feature_count": 144,
+      "high_lower_q75": 17.7478731098321,
+      "high_quantile": 0.7,
+      "probability_threshold": 0.15,
+      "validation_threshold_metrics": {
+        "high_precision": 0.2465753424657534,
+        "high_recall": 0.6206896551724138,
+        "high_f1": 0.35294117647058826
+      },
+      "confusion_matrix": [
+        [
+          6,
+          15
+        ],
+        [
+          28,
+          284
+        ]
+      ],
+      "class_order": [
+        "high",
+        "not_high"
+      ],
+      "test_class_counts": {
+        "high": 21,
+        "not_high": 312
+      },
+      "predicted_positive_rate": 0.1021021021021021
+    }
+  }
+}

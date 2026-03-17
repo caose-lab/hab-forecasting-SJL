@@ -1,0 +1,77 @@
+{
+  "week_1": {
+    "bundle_path": "/Users/a1amador/Documents/Playground/operational_models/week1/regression/chl_weekly_forecast_bundle.joblib",
+    "feature_count": 102,
+    "holdout_rows": 333,
+    "model": {
+      "rows": 333,
+      "mae": 2.4231105310941126,
+      "rmse": 3.2078520032668587,
+      "r2": 0.4746222756169167
+    },
+    "persistence_last_value": {
+      "rows": 187,
+      "mae": 3.591736368546778,
+      "rmse": 5.1800963170313805,
+      "r2": -0.3478695780151313
+    },
+    "persistence_trailing7_mean": {
+      "rows": 275,
+      "mae": 2.602640255934579,
+      "rmse": 3.7438529047843416,
+      "r2": 0.30765322213416846
+    },
+    "predictions_csv": "/Users/a1amador/Documents/Playground/diagnostics/regression/week1_holdout_predictions.csv",
+    "scatter_svg": "/Users/a1amador/Documents/Playground/diagnostics/regression/week1_predicted_vs_observed.svg"
+  },
+  "week_2": {
+    "bundle_path": "/Users/a1amador/Documents/Playground/operational_models/week2/regression/chl_weekly_forecast_bundle.joblib",
+    "feature_count": 162,
+    "holdout_rows": 333,
+    "model": {
+      "rows": 333,
+      "mae": 2.6470792345393597,
+      "rmse": 3.421757253138856,
+      "r2": 0.40221997209544136
+    },
+    "persistence_last_value": {
+      "rows": 178,
+      "mae": 3.939151360067154,
+      "rmse": 5.637439280465751,
+      "r2": -0.7717510508832761
+    },
+    "persistence_trailing7_mean": {
+      "rows": 259,
+      "mae": 2.8821281015414417,
+      "rmse": 4.0631945758307975,
+      "r2": 0.17230518880972412
+    },
+    "predictions_csv": "/Users/a1amador/Documents/Playground/diagnostics/regression/week2_holdout_predictions.csv",
+    "scatter_svg": "/Users/a1amador/Documents/Playground/diagnostics/regression/week2_predicted_vs_observed.svg"
+  },
+  "week_3": {
+    "bundle_path": "/Users/a1amador/Documents/Playground/operational_models/week3/regression/chl_weekly_forecast_bundle.joblib",
+    "feature_count": 241,
+    "holdout_rows": 333,
+    "model": {
+      "rows": 333,
+      "mae": 3.078905791344672,
+      "rmse": 3.904990867170651,
+      "r2": 0.22145619559547636
+    },
+    "persistence_last_value": {
+      "rows": 167,
+      "mae": 4.650261144017143,
+      "rmse": 6.654781351116618,
+      "r2": -1.1362873963465878
+    },
+    "persistence_trailing7_mean": {
+      "rows": 261,
+      "mae": 3.6732631469598007,
+      "rmse": 5.3681944122998235,
+      "r2": -0.5536519867597989
+    },
+    "predictions_csv": "/Users/a1amador/Documents/Playground/diagnostics/regression/week3_holdout_predictions.csv",
+    "scatter_svg": "/Users/a1amador/Documents/Playground/diagnostics/regression/week3_predicted_vs_observed.svg"
+  }
+}

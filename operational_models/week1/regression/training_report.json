@@ -1,0 +1,46 @@
+{
+  "data_summary": {
+    "input_rows": 3727,
+    "input_start": "2016-01-01",
+    "input_end": "2026-03-15",
+    "target_non_missing": 1718
+  },
+  "metrics": {
+    "week_1": {
+      "mae": 2.4231105310941126,
+      "rmse": 3.2078520032668587,
+      "r2": 0.4746222756169167,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-15",
+      "train_end": "2024-08-28",
+      "test_start": "2024-09-05",
+      "test_end": "2026-02-23",
+      "best_params": {
+        "mode": "fixed_baseline",
+        "model_family": "hist_gradient_boosting",
+        "feature_profile": "target_small_env_calendar_p95",
+        "target_transform": "log1p",
+        "sample_weighting": "none",
+        "model__learning_rate": 0.02,
+        "model__max_depth": 4,
+        "model__max_iter": 2000,
+        "model__max_leaf_nodes": 23,
+        "model__min_samples_leaf": 90,
+        "model__l2_regularization": 1.8
+      },
+      "feature_count": 102,
+      "conformal_intervals": {
+        "calibration_rows": 266,
+        "calibration_start": "2023-04-15",
+        "calibration_end": "2024-08-28",
+        "alphas": {
+          "0.5": 2.950843571755211,
+          "0.32": 4.0078262304658345,
+          "0.2": 5.657753535114684,
+          "0.1": 7.3844380034917165
+        }
+      }
+    }
+  }
+}

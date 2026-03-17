@@ -1,0 +1,67 @@
+{
+  "data_summary": {
+    "input_rows": 3722,
+    "input_start": "2016-01-01",
+    "input_end": "2026-03-10",
+    "target_non_missing": 1717
+  },
+  "metrics": {
+    "week_1": {
+      "mae": 3.273708830107529,
+      "rmse": 3.948175267875614,
+      "r2": 0.20414150680359744,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-14",
+      "train_end": "2024-08-27",
+      "test_start": "2024-09-04",
+      "test_end": "2026-02-22",
+      "best_params": {
+        "model__min_samples_leaf": 50,
+        "model__max_leaf_nodes": 63,
+        "model__max_iter": 200,
+        "model__max_depth": 5,
+        "model__learning_rate": 0.2,
+        "model__l2_regularization": 0.7000000000000001
+      }
+    },
+    "week_2": {
+      "mae": 3.650922207529751,
+      "rmse": 4.389108324086309,
+      "r2": 0.016451892968786686,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-09-07",
+      "train_end": "2024-08-20",
+      "test_start": "2024-08-28",
+      "test_end": "2026-02-15",
+      "best_params": {
+        "model__min_samples_leaf": 20,
+        "model__max_leaf_nodes": 127,
+        "model__max_iter": 500,
+        "model__max_depth": 9,
+        "model__learning_rate": 0.08000000000000002,
+        "model__l2_regularization": 0.7000000000000001
+      }
+    },
+    "week_3": {
+      "mae": 4.185801904743625,
+      "rmse": 5.551145909812503,
+      "r2": -0.573288229302491,
+      "train_rows": 1329,
+      "test_rows": 333,
+      "train_start": "2016-08-31",
+      "train_end": "2024-08-13",
+      "test_start": "2024-08-21",
+      "test_end": "2026-02-08",
+      "best_params": {
+        "model__min_samples_leaf": 20,
+        "model__max_leaf_nodes": 15,
+        "model__max_iter": 700,
+        "model__max_depth": 3,
+        "model__learning_rate": 0.2,
+        "model__l2_regularization": 0.1
+      }
+    }
+  }
+}
