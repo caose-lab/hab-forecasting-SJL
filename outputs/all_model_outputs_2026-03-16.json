@@ -1,0 +1,241 @@
+{
+  "prediction_date": "2026-03-16",
+  "separate_outputs": {
+    "regression": {
+      "week1": {
+        "predicted_avg_mg_m3": 13.737779847442134,
+        "lower_50_mg_m3": 10.786936275686923,
+        "upper_50_mg_m3": 16.688623419197345,
+        "lower_68_mg_m3": 9.7299536169763,
+        "upper_68_mg_m3": 17.74560607790797,
+        "lower_80_mg_m3": 8.080026312327451,
+        "upper_80_mg_m3": 19.395533382556817,
+        "lower_90_mg_m3": 6.3533418439504175,
+        "upper_90_mg_m3": 21.12221785093385
+      },
+      "week2": {
+        "predicted_avg_mg_m3": 12.119817709785456,
+        "lower_50_mg_m3": 8.515904440552356,
+        "upper_50_mg_m3": 15.723730979018557,
+        "lower_68_mg_m3": 7.193826368031862,
+        "upper_68_mg_m3": 17.045809051539052,
+        "lower_80_mg_m3": 5.505277857043333,
+        "upper_80_mg_m3": 18.73435756252758,
+        "lower_90_mg_m3": 2.5766501088234364,
+        "upper_90_mg_m3": 21.662985310747477
+      },
+      "week3": {
+        "predicted_avg_mg_m3": 12.652949020533102,
+        "lower_50_mg_m3": 9.486420530056838,
+        "upper_50_mg_m3": 15.819477511009366,
+        "lower_68_mg_m3": 7.684037771652227,
+        "upper_68_mg_m3": 17.62186026941398,
+        "lower_80_mg_m3": 6.170104043452111,
+        "upper_80_mg_m3": 19.135793997614094,
+        "lower_90_mg_m3": 4.318574265917018,
+        "upper_90_mg_m3": 20.987323775149186
+      }
+    },
+    "risk_3class": {
+      "week1": {
+        "predicted_risk": "medium",
+        "prob_low": 0.2268589617314245,
+        "prob_medium": 0.7159506287495169,
+        "prob_high": 0.05719040951905861,
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "week2": {
+        "predicted_risk": "high",
+        "prob_low": 0.39583577374397727,
+        "prob_medium": 0.04054894448005428,
+        "prob_high": 0.5636152817759684,
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "week3": {
+        "predicted_risk": "medium",
+        "prob_low": 0.28121153578776686,
+        "prob_medium": 0.6243949531618759,
+        "prob_high": 0.09439351105035723,
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      }
+    },
+    "high_risk_alert": {
+      "week1": {
+        "predicted_high_risk": "high",
+        "prob_high": 0.21196242293447465,
+        "probability_threshold": 0.1,
+        "high_lower_q75": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "week2": {
+        "predicted_high_risk": "high",
+        "prob_high": 0.13660100348034065,
+        "probability_threshold": 0.125,
+        "high_lower_q75": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "week3": {
+        "predicted_high_risk": "not_high",
+        "prob_high": 0.03909052677743363,
+        "probability_threshold": 0.1,
+        "high_lower_q75": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      }
+    }
+  },
+  "combined_outputs": {
+    "week1": {
+      "regression": {
+        "predicted_avg_mg_m3": 13.737779847442134,
+        "lower_50_mg_m3": 10.786936275686923,
+        "upper_50_mg_m3": 16.688623419197345,
+        "lower_68_mg_m3": 9.7299536169763,
+        "upper_68_mg_m3": 17.74560607790797,
+        "lower_80_mg_m3": 8.080026312327451,
+        "upper_80_mg_m3": 19.395533382556817,
+        "lower_90_mg_m3": 6.3533418439504175,
+        "upper_90_mg_m3": 21.12221785093385
+      },
+      "risk_3class": {
+        "predicted_risk": "medium",
+        "prob_low": 0.2268589617314245,
+        "prob_medium": 0.7159506287495169,
+        "prob_high": 0.05719040951905861,
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "high_risk_alert": {
+        "predicted_high_risk": "high",
+        "prob_high": 0.21196242293447465,
+        "probability_threshold": 0.1,
+        "high_lower_q75": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "operational_assessment": {
+        "warning_level": "high",
+        "confidence": "moderate",
+        "summary": "Moderate conditions expected, but elevated bloom risk remains likely.",
+        "bloom_threshold_mg_m3": 16.41,
+        "point_exceeds_bloom_threshold": false,
+        "upper_50_exceeds_bloom_threshold": true,
+        "upper_68_exceeds_bloom_threshold": true,
+        "upper_80_exceeds_bloom_threshold": true,
+        "binary_alert_supports_high_risk": true,
+        "binary_high_risk_probability": 0.21196242293447465,
+        "three_class_supports_high_risk": false,
+        "three_class_high_probability": 0.05719040951905861,
+        "signal_agreement_count": 1,
+        "evidence_score": 7
+      }
+    },
+    "week2": {
+      "regression": {
+        "predicted_avg_mg_m3": 12.119817709785456,
+        "lower_50_mg_m3": 8.515904440552356,
+        "upper_50_mg_m3": 15.723730979018557,
+        "lower_68_mg_m3": 7.193826368031862,
+        "upper_68_mg_m3": 17.045809051539052,
+        "lower_80_mg_m3": 5.505277857043333,
+        "upper_80_mg_m3": 18.73435756252758,
+        "lower_90_mg_m3": 2.5766501088234364,
+        "upper_90_mg_m3": 21.662985310747477
+      },
+      "risk_3class": {
+        "predicted_risk": "high",
+        "prob_low": 0.39583577374397727,
+        "prob_medium": 0.04054894448005428,
+        "prob_high": 0.5636152817759684,
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "high_risk_alert": {
+        "predicted_high_risk": "high",
+        "prob_high": 0.13660100348034065,
+        "probability_threshold": 0.125,
+        "high_lower_q75": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "operational_assessment": {
+        "warning_level": "high",
+        "confidence": "high",
+        "summary": "Moderate conditions expected, but elevated bloom risk remains likely.",
+        "bloom_threshold_mg_m3": 16.41,
+        "point_exceeds_bloom_threshold": false,
+        "upper_50_exceeds_bloom_threshold": false,
+        "upper_68_exceeds_bloom_threshold": true,
+        "upper_80_exceeds_bloom_threshold": true,
+        "binary_alert_supports_high_risk": true,
+        "binary_high_risk_probability": 0.13660100348034065,
+        "three_class_supports_high_risk": true,
+        "three_class_high_probability": 0.5636152817759684,
+        "signal_agreement_count": 2,
+        "evidence_score": 9
+      }
+    },
+    "week3": {
+      "regression": {
+        "predicted_avg_mg_m3": 12.652949020533102,
+        "lower_50_mg_m3": 9.486420530056838,
+        "upper_50_mg_m3": 15.819477511009366,
+        "lower_68_mg_m3": 7.684037771652227,
+        "upper_68_mg_m3": 17.62186026941398,
+        "lower_80_mg_m3": 6.170104043452111,
+        "upper_80_mg_m3": 19.135793997614094,
+        "lower_90_mg_m3": 4.318574265917018,
+        "upper_90_mg_m3": 20.987323775149186
+      },
+      "risk_3class": {
+        "predicted_risk": "medium",
+        "prob_low": 0.28121153578776686,
+        "prob_medium": 0.6243949531618759,
+        "prob_high": 0.09439351105035723,
+        "low_upper_q25": 9.591680746276145,
+        "high_lower_quantile": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "high_risk_alert": {
+        "predicted_high_risk": "not_high",
+        "prob_high": 0.03909052677743363,
+        "probability_threshold": 0.1,
+        "high_lower_q75": 16.41,
+        "high_quantile": 0.75,
+        "high_threshold_mode": "fixed_value"
+      },
+      "operational_assessment": {
+        "warning_level": "moderate",
+        "confidence": "moderate",
+        "summary": "Moderate conditions expected, with some uncertainty about elevated bloom risk.",
+        "bloom_threshold_mg_m3": 16.41,
+        "point_exceeds_bloom_threshold": false,
+        "upper_50_exceeds_bloom_threshold": false,
+        "upper_68_exceeds_bloom_threshold": true,
+        "upper_80_exceeds_bloom_threshold": true,
+        "binary_alert_supports_high_risk": false,
+        "binary_high_risk_probability": 0.03909052677743363,
+        "three_class_supports_high_risk": false,
+        "three_class_high_probability": 0.09439351105035723,
+        "signal_agreement_count": 0,
+        "evidence_score": 3
+      }
+    }
+  }
+}
